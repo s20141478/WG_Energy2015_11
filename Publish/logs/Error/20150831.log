@@ -1,0 +1,284 @@
+[类型]:Error
+[线程]:9
+[内存]:21.02M
+[时间]:2015-08-31 20:20:29
+[内容]:容器中没有类型为EAS.Explorer.BLL.ICertificateService的组件
+[来源]:EAS.MicroKernel
+[目标]:System.Object GetComponentInstance(System.Type)
+[堆栈]:   在 unKS0jjYuKqaSe9SWt5.eqWXMMjLgDclqol1fi6.GetComponentInstance(Type )
+   在 gw0ASOjH9BC19fuEX95.Wgyk7wjr2KpbgrMY4oV.mfGWtZ45yEAGPPb7G5q(Object , Type serviceType)
+   在 gw0ASOjH9BC19fuEX95.Wgyk7wjr2KpbgrMY4oV.XlgHFSZDfl(Type )
+   在 EAS.Services.DirectServiceBridger.AdwfdOe2sX05FWFyW1(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+
+
+[类型]:Error
+[线程]:9
+[内存]:23.47M
+[时间]:2015-08-31 20:22:20
+[内容]:对象名 '电炉煤气柜数量选中2_FCST' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:29.06M
+[时间]:2015-08-31 20:22:31
+[内容]:对象名 '电炉煤气柜数量选中2_FCST' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:28.33M
+[时间]:2015-08-31 20:22:39
+[内容]:对象名 '高炉煤气柜数量选中1_FCST' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:28.72M
+[时间]:2015-08-31 20:22:46
+[内容]:对象名 '高炉煤气柜数量选中1_FCST' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:15.37M
+[时间]:2015-08-31 20:23:00
+[内容]:对象名 '高炉煤气柜数量选中1_FCST' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:15.77M
+[时间]:2015-08-31 20:23:03
+[内容]:对象名 '高炉煤气柜数量选中1_REAL' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String Clom, String TableName, String Clom1, String str1, String str2) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 82
+   在 Gas_test2.BLL.GasDAL.QueryData(String Clom, String TableName, String Clom1, String str1, String str2) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 44
+
+
+[类型]:Error
+[线程]:9
+[内存]:16.12M
+[时间]:2015-08-31 20:23:05
+[内容]:对象名 '高炉煤气柜数量选中1_REAL' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:16.28M
+[时间]:2015-08-31 20:23:06
+[内容]:对象名 '高炉煤气柜数量选中1_REAL' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:16.43M
+[时间]:2015-08-31 20:23:06
+[内容]:对象名 '高炉煤气柜数量选中1_REAL' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:9
+[内存]:16.59M
+[时间]:2015-08-31 20:23:06
+[内容]:对象名 '高炉煤气柜数量选中1_REAL' 无效。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 100
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 28
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 x:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+

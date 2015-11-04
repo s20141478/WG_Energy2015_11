@@ -1,0 +1,630 @@
+[类型]:Error
+[线程]:1
+[内存]:8.01M
+[时间]:2015-07-08 20:22:44
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.23M
+[时间]:2015-07-08 20:22:44
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.78M
+[时间]:2015-07-08 20:22:44
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.27M
+[时间]:2015-07-08 20:23:57
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.49M
+[时间]:2015-07-08 20:23:57
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.71M
+[时间]:2015-07-08 20:23:57
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.91M
+[时间]:2015-07-08 20:24:07
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.02M
+[时间]:2015-07-08 20:25:38
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.20M
+[时间]:2015-07-08 20:25:38
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.38M
+[时间]:2015-07-08 20:25:38
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.23M
+[时间]:2015-07-08 20:26:18
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.41M
+[时间]:2015-07-08 20:26:18
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.65M
+[时间]:2015-07-08 20:26:18
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.07M
+[时间]:2015-07-08 20:26:28
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.19M
+[时间]:2015-07-08 20:26:28
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.51M
+[时间]:2015-07-08 20:26:42
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.69M
+[时间]:2015-07-08 20:26:42
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.87M
+[时间]:2015-07-08 20:26:42
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.65M
+[时间]:2015-07-08 21:08:57
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.87M
+[时间]:2015-07-08 21:08:57
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.08M
+[时间]:2015-07-08 21:08:57
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.44M
+[时间]:2015-07-08 21:09:05
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.56M
+[时间]:2015-07-08 21:09:07
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.70M
+[时间]:2015-07-08 21:09:09
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.85M
+[时间]:2015-07-08 21:09:54
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.07M
+[时间]:2015-07-08 21:09:54
+[内容]:“焦炉煤气数量:”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.25M
+[时间]:2015-07-08 21:09:54
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.13M
+[时间]:2015-07-08 21:13:36
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.72M
+[时间]:2015-07-08 21:13:40
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.87M
+[时间]:2015-07-08 21:13:41
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.15M
+[时间]:2015-07-08 21:18:29
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.09M
+[时间]:2015-07-08 21:18:43
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.87M
+[时间]:2015-07-08 21:19:12
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.13M
+[时间]:2015-07-08 21:20:00
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.83M
+[时间]:2015-07-08 21:20:15
+[内容]:在将 varchar 值 'System.Windows.Forms.NumericUpDown, Minimum = 0, Maximum = 100' 转换成数据类型 int 时失败。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+

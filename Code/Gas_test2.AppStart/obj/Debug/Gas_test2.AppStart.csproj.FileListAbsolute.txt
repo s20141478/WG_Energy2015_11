@@ -1,0 +1,8 @@
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.AppStart\obj\Debug\Gas_test2.AppStart.csprojResolveAssemblyReference.cache
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.AppStart\obj\Debug\Gas_test2.AppStart.Properties.Resources.resources
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.AppStart\obj\Debug\Gas_test2.AppStart.csproj.GenerateResource.Cache
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.AppStart.exe.config
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.AppStart.exe
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.AppStart.pdb
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.AppStart\obj\Debug\Gas_test2.AppStart.exe
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.AppStart\obj\Debug\Gas_test2.AppStart.pdb

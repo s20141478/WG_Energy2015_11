@@ -1,0 +1,281 @@
+[类型]:Error
+[线程]:9
+[内存]:4.07M
+[时间]:2015-07-02 16:52:48
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.19M
+[时间]:2015-07-02 16:52:48
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:14
+[内存]:4.36M
+[时间]:2015-07-02 16:52:48
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:14
+[内存]:4.43M
+[时间]:2015-07-02 16:52:48
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.84M
+[时间]:2015-07-02 16:52:49
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.92M
+[时间]:2015-07-02 16:52:49
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.75M
+[时间]:2015-07-02 16:53:24
+[内容]:超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+[来源]:System.Data
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, System.Threading.Tasks.TaskCompletionSource`1[System.Data.ProviderBase.DbConnectionInternal], System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute[T](GQgIoTYESrfgc0VIsTk`1 query, Object[] )
+   在 lambda_method(Closure )
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.<>c__DisplayClass2.<Execute>b__1()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute(Expression )
+   在 JpkjRaNBi51snjGAlQG.v5uE9pNoloI3FiSkVn0.System.Linq.IQueryProvider.Execute[S](Expression )
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:11
+[内存]:5.92M
+[时间]:2015-07-02 16:53:25
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:11
+[内存]:4.67M
+[时间]:2015-07-02 16:53:25
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.34M
+[时间]:2015-07-02 16:54:17
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute[T](GQgIoTYESrfgc0VIsTk`1 query, Object[] )
+   在 lambda_method(Closure )
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.<>c__DisplayClass2.<Execute>b__1()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute(Expression )
+   在 JpkjRaNBi51snjGAlQG.v5uE9pNoloI3FiSkVn0.System.Linq.IQueryProvider.Execute[S](Expression )
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.45M
+[时间]:2015-07-02 16:54:17
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:6.09M
+[时间]:2015-07-02 16:56:08
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute[T](GQgIoTYESrfgc0VIsTk`1 query, Object[] )
+   在 lambda_method(Closure )
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.<>c__DisplayClass2.<Execute>b__1()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute(Expression )
+   在 JpkjRaNBi51snjGAlQG.v5uE9pNoloI3FiSkVn0.System.Linq.IQueryProvider.Execute[S](Expression )
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.82M
+[时间]:2015-07-02 16:56:08
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22B586A9-A6DD-4313-B502-CFD5662AAD8B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EAS.Data">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Data.Controls">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.Data.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Data.Dispatchers">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.Data.Dispatchers.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Data.Provider">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.Data.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Metadata">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.MetaModeling">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.MetaModeling.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.MicroKernel">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.MicroKernel.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Monitor">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.Monitor.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.SOA.BootStrap">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\EAS.SOA.BootStrap.dll</HintPath>
+    </Reference>
+    <Reference Include="Gas_test2.BLL.Contracts">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\Gas_test2.BLL.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Gas_test2.Entities">
+      <HintPath>C:\Users\fei\Documents\WG_GasManage_xf\Publish\Gas_test2.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

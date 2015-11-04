@@ -1,0 +1,10 @@
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.Entities.dll
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.Entities.pdb
+C:\Users\fei\Documents\WG_GasManage\Code\Entities\obj\Debug\Gas_test2.Entities.dll
+C:\Users\fei\Documents\WG_GasManage\Code\Entities\obj\Debug\Gas_test2.Entities.pdb
+C:\Users\fei\Documents\WG_GasManage\Code\Entities\obj\Debug\Gas_test2.Entities.csprojResolveAssemblyReference.cache
+X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.Entities.dll
+X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.Entities.pdb
+X:\C#_Energy_Project\WG_GasManage\Code\Entities\obj\Debug\Gas_test2.Entities.csprojResolveAssemblyReference.cache
+X:\C#_Energy_Project\WG_GasManage\Code\Entities\obj\Debug\Gas_test2.Entities.dll
+X:\C#_Energy_Project\WG_GasManage\Code\Entities\obj\Debug\Gas_test2.Entities.pdb

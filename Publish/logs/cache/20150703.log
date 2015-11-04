@@ -1,0 +1,248 @@
+2015-07-03 11:12:25==>INFO :请求更新缓存出错:EAS.Explorer.Entities.CacheItem
+[类型]:Error
+[线程]:1
+[内存]:4.32M
+[时间]:2015-07-03 11:12:25
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:1
+[内存]:4.35M
+[时间]:2015-07-03 11:12:25
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+[类型]:Error
+[线程]:1
+[内存]:3.01M
+[时间]:2015-07-03 11:12:25
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:1
+[内存]:3.05M
+[时间]:2015-07-03 11:12:25
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:12:25==>INFO :请求更新缓存出错:EAS.Explorer.Entities.CacheItem
+[类型]:Error
+[线程]:6
+[内存]:3.23M
+[时间]:2015-07-03 11:12:25
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:6
+[内存]:3.25M
+[时间]:2015-07-03 11:12:25
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:12:25==>INFO :请求更新缓存出错:EAS.Explorer.Entities.CacheItem
+[类型]:Error
+[线程]:5
+[内存]:3.07M
+[时间]:2015-07-03 11:12:25
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:5
+[内存]:3.10M
+[时间]:2015-07-03 11:12:25
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:12:28==>INFO :请求更新缓存出错:EAS.Explorer.Entities.Module
+[类型]:Error
+[线程]:1
+[内存]:5.32M
+[时间]:2015-07-03 11:12:28
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:1
+[内存]:5.36M
+[时间]:2015-07-03 11:12:28
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+[类型]:Error
+[线程]:1
+[内存]:5.02M
+[时间]:2015-07-03 11:12:28
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:1
+[内存]:5.06M
+[时间]:2015-07-03 11:12:28
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:13:02==>INFO :请求更新缓存出错:EAS.Explorer.Entities.Module
+[类型]:Error
+[线程]:5
+[内存]:4.73M
+[时间]:2015-07-03 11:13:02
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:5
+[内存]:4.77M
+[时间]:2015-07-03 11:13:02
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:25:15==>INFO :请求更新缓存出错:EAS.Explorer.Entities.CacheItem
+[类型]:Error
+[线程]:10
+[内存]:3.13M
+[时间]:2015-07-03 11:25:15
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:10
+[内存]:3.16M
+[时间]:2015-07-03 11:25:15
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:25:15==>INFO :请求更新缓存出错:EAS.Explorer.Entities.CacheItem
+[类型]:Error
+[线程]:15
+[内存]:3.37M
+[时间]:2015-07-03 11:25:15
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:15
+[内存]:3.42M
+[时间]:2015-07-03 11:25:15
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+2015-07-03 11:25:15==>INFO :请求更新缓存出错:EAS.Explorer.Entities.Module
+[类型]:Error
+[线程]:10
+[内存]:6.04M
+[时间]:2015-07-03 11:25:15
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Data.Caching.ICacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 sIO8JPN1xigB2vPC13O.o9E4vsYzq2NBWagfQQT.pLJUJpm6ne()
+
+[类型]:Error
+[线程]:10
+[内存]:6.07M
+[时间]:2015-07-03 11:25:15
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+

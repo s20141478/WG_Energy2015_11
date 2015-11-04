@@ -1,0 +1,1862 @@
+[类型]:Error
+[线程]:1
+[内存]:3.54M
+[时间]:2015-07-07 14:54:42
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:1
+[内存]:3.67M
+[时间]:2015-07-07 14:54:42
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:6
+[内存]:3.78M
+[时间]:2015-07-07 14:54:42
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:6
+[内存]:3.85M
+[时间]:2015-07-07 14:54:42
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:4.40M
+[时间]:2015-07-07 14:54:43
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:1
+[内存]:4.49M
+[时间]:2015-07-07 14:54:43
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:4.63M
+[时间]:2015-07-07 14:54:57
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:1
+[内存]:4.76M
+[时间]:2015-07-07 14:54:57
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:6
+[内存]:3.47M
+[时间]:2015-07-07 14:54:57
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:6
+[内存]:3.57M
+[时间]:2015-07-07 14:54:57
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.09M
+[时间]:2015-07-07 14:54:57
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.15M
+[时间]:2015-07-07 14:54:57
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:8
+[内存]:4.45M
+[时间]:2015-07-07 14:55:10
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:8
+[内存]:3.13M
+[时间]:2015-07-07 14:55:10
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:14
+[内存]:3.34M
+[时间]:2015-07-07 14:55:10
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:14
+[内存]:3.44M
+[时间]:2015-07-07 14:55:10
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:8
+[内存]:5.95M
+[时间]:2015-07-07 14:55:10
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:8
+[内存]:6.03M
+[时间]:2015-07-07 14:55:10
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.18M
+[时间]:2015-07-07 14:55:18
+[内容]:超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+[来源]:System.Data
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, System.Threading.Tasks.TaskCompletionSource`1[System.Data.ProviderBase.DbConnectionInternal], System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute[T](GQgIoTYESrfgc0VIsTk`1 query, Object[] )
+   在 lambda_method(Closure )
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.<>c__DisplayClass2.<Execute>b__1()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute(Expression )
+   在 JpkjRaNBi51snjGAlQG.v5uE9pNoloI3FiSkVn0.System.Linq.IQueryProvider.Execute[S](Expression )
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:6
+[内存]:5.35M
+[时间]:2015-07-07 14:55:19
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:6
+[内存]:5.47M
+[时间]:2015-07-07 14:55:19
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:5
+[内存]:3.92M
+[时间]:2015-07-07 14:55:34
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:5
+[内存]:4.04M
+[时间]:2015-07-07 14:55:34
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:15
+[内存]:5.38M
+[时间]:2015-07-07 14:55:47
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:15
+[内存]:5.50M
+[时间]:2015-07-07 14:55:47
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:3.20M
+[时间]:2015-07-07 15:43:16
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:9
+[内存]:3.32M
+[时间]:2015-07-07 15:43:16
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:13
+[内存]:3.49M
+[时间]:2015-07-07 15:43:16
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:13
+[内存]:3.56M
+[时间]:2015-07-07 15:43:16
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.96M
+[时间]:2015-07-07 15:43:16
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:9
+[内存]:6.04M
+[时间]:2015-07-07 15:43:16
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.50M
+[时间]:2015-07-07 15:43:21
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute[T](GQgIoTYESrfgc0VIsTk`1 query, Object[] )
+   在 lambda_method(Closure )
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.<>c__DisplayClass2.<Execute>b__1()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute(Expression )
+   在 JpkjRaNBi51snjGAlQG.v5uE9pNoloI3FiSkVn0.System.Linq.IQueryProvider.Execute[S](Expression )
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.57M
+[时间]:2015-07-07 15:43:21
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:9
+[内存]:6.28M
+[时间]:2015-07-07 15:43:54
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute[T](GQgIoTYESrfgc0VIsTk`1 query, Object[] )
+   在 lambda_method(Closure )
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.<>c__DisplayClass2.<Execute>b__1()
+   在 aGnZj3NUY7FUbbq0eHN.mW7SpTNJqmae339fi95.Execute(Expression )
+   在 JpkjRaNBi51snjGAlQG.v5uE9pNoloI3FiSkVn0.System.Linq.IQueryProvider.Execute[S](Expression )
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:13
+[内存]:6.32M
+[时间]:2015-07-07 15:43:54
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 EAS.Data.Access.AbstractProvider.vcAy0jsYBiT9cSXpiE7(Object )
+   在 EAS.Data.Access.AbstractProvider.Open()
+   在 EAS.Data.Access.DataAccessor.f1K5SGYNCFxRGIChLHg(Object )
+   在 EAS.Data.Access.DataAccessor.DelegateQuery(DataReaderHandler handler, String commandText, CommandType commandType, ParameterCollection parameters)
+   在 EAS.Data.ORM.OrmAccessor.iBDOnpDFqn(Type , Condition , List`1 propertys, Int32 , Int32 )
+   在 EAS.Data.ORM.OrmAccessor.EAS.Data.ORM.IDataChannel.Select2(String T, Condition condition, List`1 propertys, Int32 skip, Int32 count)
+   在 EAS.Data.Caching.DbCacheProvider.N1nAz44fsk(String , String , DateTime , Type )
+   在 EAS.Data.Caching.DbCacheProvider.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.OTVH3n843AXiZvuoXNd(Object , Object , Object , DateTime updateTime, Guid sessionID)
+   在 EAS.Data.Caching.CacheService.GetData(String dataType, String updateProperty, DateTime updateTime, Guid sessionID)
+
+
+[类型]:Error
+[线程]:9
+[内存]:6.42M
+[时间]:2015-07-07 15:43:54
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:13
+[内存]:6.46M
+[时间]:2015-07-07 15:43:54
+[内容]:系统找不到指定的文件。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.72M
+[时间]:2015-07-07 15:52:11
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Gas_test2.DAL.BaseClass.getcon() 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 27
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 97
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 29
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.82M
+[时间]:2015-07-07 15:52:12
+[内容]:找不到网络路径。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.01M
+[时间]:2015-07-07 16:00:14
+[内容]:给定的密码不符合帐户“Administrator”的登录密码，密码是区分大小写的，请确定您是否因为疏忽而按下了“Caps Lock”键，该键将会使您键入的任何字母自动转换为大写形式，从而可能导致您的密码不正确。
+如果您忘记了密码，请通知您的系统管理员，请他（她）帮助您解决这个问题。
+[来源]:EAS.Explorer.BLL.Host
+[目标]:EAS.Explorer.BLL.LoginResult GetAccountInfo(System.String, System.String, System.String)
+[堆栈]:   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.88M
+[时间]:2015-07-07 16:38:53
+[内容]:违反了 PRIMARY KEY 约束“PK_GasometerType”。不能在对象“dbo.GasometerType”中插入重复键。重复键值为 (高炉煤气柜数量：)。
+语句已终止。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.23M
+[时间]:2015-07-07 17:14:42
+[内容]:将截断字符串或二进制数据。
+语句已终止。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.66M
+[时间]:2015-07-07 17:15:06
+[内容]:将截断字符串或二进制数据。
+语句已终止。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.14M
+[时间]:2015-07-07 17:31:33
+[内容]:将截断字符串或二进制数据。
+语句已终止。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.18M
+[时间]:2015-07-07 17:31:33
+[内容]:将截断字符串或二进制数据。
+语句已终止。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.79M
+[时间]:2015-07-07 20:16:06
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.01M
+[时间]:2015-07-07 20:16:06
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.23M
+[时间]:2015-07-07 20:16:06
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.28M
+[时间]:2015-07-07 20:16:17
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.39M
+[时间]:2015-07-07 20:16:19
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.57M
+[时间]:2015-07-07 20:16:30
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.67M
+[时间]:2015-07-07 20:16:30
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.81M
+[时间]:2015-07-07 20:16:31
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.00M
+[时间]:2015-07-07 20:16:32
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.13M
+[时间]:2015-07-07 20:16:33
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.30M
+[时间]:2015-07-07 20:16:34
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.52M
+[时间]:2015-07-07 20:16:37
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.63M
+[时间]:2015-07-07 20:16:37
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.99M
+[时间]:2015-07-07 20:26:22
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.21M
+[时间]:2015-07-07 20:26:22
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.77M
+[时间]:2015-07-07 20:26:22
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.12M
+[时间]:2015-07-07 20:26:24
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.24M
+[时间]:2015-07-07 20:26:24
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.36M
+[时间]:2015-07-07 20:26:24
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.46M
+[时间]:2015-07-07 20:26:24
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.57M
+[时间]:2015-07-07 20:26:24
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.69M
+[时间]:2015-07-07 20:26:25
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.83M
+[时间]:2015-07-07 20:26:26
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.95M
+[时间]:2015-07-07 20:26:26
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.07M
+[时间]:2015-07-07 20:26:27
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.08M
+[时间]:2015-07-07 20:26:30
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.16M
+[时间]:2015-07-07 20:26:30
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.23M
+[时间]:2015-07-07 20:26:30
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.30M
+[时间]:2015-07-07 20:26:30
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.99M
+[时间]:2015-07-07 20:33:35
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.21M
+[时间]:2015-07-07 20:33:35
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:5.77M
+[时间]:2015-07-07 20:33:35
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.76M
+[时间]:2015-07-07 20:36:01
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.98M
+[时间]:2015-07-07 20:36:02
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.21M
+[时间]:2015-07-07 20:36:02
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.31M
+[时间]:2015-07-07 20:50:28
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Gas_test2.DAL.BaseClass.getcon() 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 27
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 97
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 29
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:1
+[内存]:8.41M
+[时间]:2015-07-07 20:50:28
+[内容]:找不到网络路径。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.87M
+[时间]:2015-07-07 20:50:33
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+[堆栈]:   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Gas_test2.DAL.BaseClass.getcon() 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 27
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 97
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 29
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.94M
+[时间]:2015-07-07 20:50:33
+[内容]:找不到网络路径。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.69M
+[时间]:2015-07-07 20:51:03
+[内容]:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Gas_test2.DAL.BaseClass.getcon() 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 27
+   在 Gas_test2.DAL.BaseClass.getDataSet(String SQLstr, String tableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 97
+   在 Gas_test2.DAL.DataClass.QueryData(String TableName) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 29
+   在 Gas_test2.BLL.GasDAL.QueryData(String table_name) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 24
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.79M
+[时间]:2015-07-07 20:51:03
+[内容]:找不到网络路径。
+[来源]:
+[目标]:
+[堆栈]:
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.07M
+[时间]:2015-07-07 20:51:41
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.29M
+[时间]:2015-07-07 20:51:41
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:9.51M
+[时间]:2015-07-07 20:51:41
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.30M
+[时间]:2015-07-07 20:54:46
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.49M
+[时间]:2015-07-07 20:54:46
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.66M
+[时间]:2015-07-07 20:54:46
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.12M
+[时间]:2015-07-07 20:55:06
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.34M
+[时间]:2015-07-07 20:55:06
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:6.46M
+[时间]:2015-07-07 20:55:06
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.50M
+[时间]:2015-07-07 20:55:14
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.73M
+[时间]:2015-07-07 20:55:14
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+
+[类型]:Error
+[线程]:1
+[内存]:7.92M
+[时间]:2015-07-07 20:55:14
+[内容]:“：”附近有语法错误。
+[来源]:.Net SqlClient Data Provider
+[目标]:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+[堆栈]:   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Gas_test2.DAL.BaseClass.ExecuteSQLcmd(String SQLstr) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\BaseClass.cs:行号 122
+   在 Gas_test2.DAL.DataClass.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.DAL\DataClass.cs:行号 205
+   在 Gas_test2.BLL.GasDAL.UpdateData(String TableName, String Clom, String str, String Clom1, String str1) 位置 c:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.BLL.Host\GasDAL.cs:行号 84
+
+

@@ -1,0 +1,252 @@
+2014-12-17 09:37:57==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 09:47:44==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 09:56:15==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:02:58==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:06:48==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:08:30==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:10:03==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:10:51==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:20:35==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:25:30==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:28:57==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:30:47==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:37:18==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:47:34==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 10:57:13==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:02:51==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:03:41==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:07:57==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:09:34==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:11:58==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:13:04==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:16:53==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:22:37==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:26:53==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:32:39==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:36:00==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:39:59==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+
+2014-12-17 11:41:12==>INFO :组件定义:
+	Key=Serializer,Type=EAS.Serialization.BinarySerializer,EAS.MicroKernel
+	Key=ServiceBridger,Type=EAS.Services.DirectServiceBridger,EAS.MicroKernel
+	Key=DataAccessor,Type=EAS.Data.Access.DataAccessor,EAS.Data
+	Key=DbProvider,Type=EAS.Data.Access.SqlClientDbProvider,EAS.Data
+	Key=TSqlLanguage,Type=EAS.Data.Linq.TSqlLanguage,EAS.Data
+	Key=Logger,Type=EAS.Loggers.TextLogger,EAS.MicroKernel
+	Key=OrmAccessor,Type=EAS.Data.ORM.OrmAccessor,EAS.Data
+

@@ -1,0 +1,16 @@
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.Properties.Resources.resources
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.csproj.GenerateResource.Cache
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.Main.exe.config
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.Main.exe
+C:\Users\fei\Documents\WG_GasManage\Publish\Gas_test2.Main.pdb
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.csprojResolveAssemblyReference.cache
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.exe
+C:\Users\fei\Documents\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.pdb
+X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.Main.exe.config
+X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.exe
+X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.pdb
+X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.Main.exe
+X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.Main.pdb
+X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.csprojResolveAssemblyReference.cache
+X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.Properties.Resources.resources
+X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.csproj.GenerateResource.Cache

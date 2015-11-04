@@ -1,0 +1,33 @@
+[类型]:Error
+[线程]:9
+[内存]:4.13M
+[时间]:2014-12-17 09:38:11
+[内容]:给定的密码不符合帐户“Administrator”的登录密码，密码是区分大小写的，请确定您是否因为疏忽而按下了“Caps Lock”键，该键将会使您键入的任何字母自动转换为大写形式，从而可能导致您的密码不正确。
+如果您忘记了密码，请通知您的系统管理员，请他（她）帮助您解决这个问题。
+[来源]:EAS.Explorer.BLL.Host
+[目标]:EAS.Explorer.BLL.LoginResult GetAccountInfo(System.String, System.String, System.String)
+[堆栈]:   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.16M
+[时间]:2014-12-17 09:38:11
+[内容]:给定的密码不符合帐户“Administrator”的登录密码，密码是区分大小写的，请确定您是否因为疏忽而按下了“Caps Lock”键，该键将会使您键入的任何字母自动转换为大写形式，从而可能导致您的密码不正确。
+如果您忘记了密码，请通知您的系统管理员，请他（她）帮助您解决这个问题。
+[来源]:EAS.Explorer.BLL.Host
+[目标]:EAS.Explorer.BLL.LoginResult GetAccountInfo(System.String, System.String, System.String)
+[堆栈]:   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.WPsIrN3mDo3ypOAntkM(Object , Type serviceType, Object , Object )
+   在 eKaonkvffIvvyuTDpLB.X2caPfvDQI3nPHLO6f0.Intercept(IInvocation , Object[] args)
+   在 rY5LbyvG3c6ADP1NSqw.M3Xnr9vQw8RB8fKTlog.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Explorer.BLL.ILoginService.GetAccountInfo(String organ, String loginID, String password)
+   在 CJQG4S2nSmDFV0mAWp.llFukwlNIjh4yk77C6.qFnYYeyJwJWQdr9fMVi(Object , Object , Object , Object )
+   在 CJQG4S2nSmDFV0mAWp.llFukwlNIjh4yk77C6.n98gSNaS6(String , String , String )
+   在 EAS.Explorer.WinClient.Application.Login(String dataSet, String loginID, String password)
+   在 EAS.Windows.Application.mwRrymNamdk1qLlIgL2(Object , Object , Object , Object )
+   在 EAS.Windows.Application.Login(String loginID, String password)
+   在 gMV2eE81PcoR45Me5jq.VRUibg8Bp7RkBclgDfG.I0UKWtfurw(Object , EventArgs )
+
+
