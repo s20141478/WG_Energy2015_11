@@ -14,7 +14,7 @@ namespace Gas_test2.BLL
         /// 单独线程处理队列中的文档
         /// </summary>
 
-        private DocumentManager documentManager;
+        private DocumentManager documentManager;//该类的私有数据成员
         public ProcessDocuments(DocumentManager dm)   //这个类的构造函数，dm是构造函数的形参
         {
             this.documentManager = dm;
@@ -31,7 +31,7 @@ namespace Gas_test2.BLL
                     string algType = doc.algType;
                     double[] inputData = doc.inputData;
                     double[,] result = method.ExeAlgorithm(algType, inputData);
-                    //Console.WriteLine();
+                    Console.WriteLine("the next thread will begin.");
                 }
                 Thread.Sleep(20);//Thread.Sleep(new Random().Next(20));队列中相邻的两个文件的读取间隔20ms.
             }

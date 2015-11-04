@@ -17,3 +17,8 @@ X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.c
 C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.Main.exe.config
 C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.exe
 C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.Main.exe
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.Main.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.csprojResolveAssemblyReference.cache
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.Properties.Resources.resources
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.Main\obj\Debug\Gas_test2.Main.csproj.GenerateResource.Cache

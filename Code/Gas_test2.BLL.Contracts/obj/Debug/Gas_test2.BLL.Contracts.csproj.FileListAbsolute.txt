@@ -8,3 +8,8 @@ X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.BLL.Contracts.pdb
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Contracts\obj\Debug\Gas_test2.BLL.Contracts.csprojResolveAssemblyReference.cache
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Contracts\obj\Debug\Gas_test2.BLL.Contracts.dll
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Contracts\obj\Debug\Gas_test2.BLL.Contracts.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.BLL.Contracts.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.BLL.Contracts.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Contracts\obj\Debug\Gas_test2.BLL.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Contracts\obj\Debug\Gas_test2.BLL.Contracts.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Contracts\obj\Debug\Gas_test2.BLL.Contracts.pdb

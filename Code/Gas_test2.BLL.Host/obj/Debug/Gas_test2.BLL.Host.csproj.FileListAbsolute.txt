@@ -12,3 +12,10 @@ X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\obj\Debug\Interop.MLAp
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.csproj.ResolveComReference.cache
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.dll
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.BLL.Host.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.BLL.Host.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.csprojResolveAssemblyReference.cache
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Host\obj\Debug\Interop.MLApp.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.csproj.ResolveComReference.cache
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.BLL.Host\obj\Debug\Gas_test2.BLL.Host.pdb

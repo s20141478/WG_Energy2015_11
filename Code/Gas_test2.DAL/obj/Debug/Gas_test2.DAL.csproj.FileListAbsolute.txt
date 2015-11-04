@@ -8,3 +8,8 @@ X:\C#_Energy_Project\WG_GasManage\Publish\Gas_test2.DAL.pdb
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\obj\Debug\Gas_test2.DAL.csprojResolveAssemblyReference.cache
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\obj\Debug\Gas_test2.DAL.dll
 X:\C#_Energy_Project\WG_GasManage\Code\Gas_test2.DAL\obj\Debug\Gas_test2.DAL.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.DAL.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Publish\Gas_test2.DAL.pdb
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.DAL\obj\Debug\Gas_test2.DAL.csprojResolveAssemblyReference.cache
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.DAL\obj\Debug\Gas_test2.DAL.dll
+C:\Users\fei\Documents\GitHub\WG_Energy2015_11\Code\Gas_test2.DAL\obj\Debug\Gas_test2.DAL.pdb
